@@ -12,4 +12,4 @@ android-workflow:
       script: |
         cd artifacts/mobile && npx expo export --platform android
   artifacts:
-    - artifacts/mobile/dist/**
+    - artifacts/mobile/dist/**/*.apk
