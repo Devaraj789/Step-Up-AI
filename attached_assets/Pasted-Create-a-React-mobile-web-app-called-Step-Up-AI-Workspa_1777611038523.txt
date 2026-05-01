@@ -1,0 +1,144 @@
+Create a React mobile web app called "Step Up AI Workspace".
+
+APP OVERVIEW:
+- Clean white background, black text, blue (#2563EB) accent
+- Mobile responsive, all screen sizes supported
+- Pill-style rounded buttons throughout
+
+SCREEN 1 - SPLASH/LOGIN:
+- App logo (black square with star icons)
+- Title: "Step Up AI"
+- Subtitle: "Autopilot your busywork"
+- Button 1: "Continue with Google" (black bg, Google icon)
+- Button 2: "Sign up (Free)" (gray bg)
+- Button 3: "Log in" (white/outline)
+- Bottom text: "By continuing you agree to Terms of Service and Privacy Policy"
+
+SCREEN 2 - LOGIN PAGE:
+- Title: "Step Up AI Workspace"
+- 5 login options: Google, Microsoft, Apple, Login with email, Login with SSO
+
+SCREEN 3 - HOME SCREEN (not logged in):
+- Top left: Hamburger menu
+- Top right: "Sign up" black pill button
+- Logo + "Step Up AI Workspace" title
+- Search box with placeholder "Ask anything, create anything"
+- Inside search box: "+" button, "Ultra" blue pill, Microphone icon, Send button
+- Suggestions carousel (horizontal scroll):
+  Card 1: "Capture meetings intelligently"
+  Card 2: "Create an infographic"
+  Card 3: "Create a slide deck"
+  Card 4: "Edit an image"
+  Card 5: "Use AI to make your calls"
+  Card 6: "Create an image"
+- Agent icons row 1: AI Meeting Notes, AI Slides, AI Sheets, AI Docs
+- Agent icons row 2: AI Chat, AI Image, Realtime Translation (NEW badge), All Agents
+- Bottom nav: AI Drive | Hub
+
+SCREEN 4 - HOME SCREEN (logged in):
+- Top right: "Upgrade" blue outline pill button
+- Voice active: "Speak" black pill button
+- Same layout as Screen 3
+
+SCREEN 5 - PLUS BUTTON BOTTOM SHEET:
+- Top row 3 options: Camera, Photo, Files
+- List: From AI Drive, Edit Image, Tools, Personalization
+
+SCREEN 6 - PERSONALIZATION MODAL:
+- Title: "Let Step Up AI Know You"
+- Subtitle: "More personalized responses"
+- Text input: "Paste your LinkedIn URL, Twitter URL, personal website, or description"
+- Two buttons: Manual Input, Auto Research
+
+SCREEN 7 - ALL AGENTS SCREEN:
+3-column grid layout:
+Row 1: Super Agent, AI Meeting Notes, AI Slides
+Row 2: AI Sheets, AI Docs, AI Chat
+Row 3: AI Image, Realtime Translation (NEW), Custom Agent
+Row 4: Photo Genius, AI Video, AI Developer
+Row 5: AI Designer, Clip Genius, AI Pods
+Row 6: Deep Research, Fact Check, Call For Me
+Row 7: Download For Me, Inbox, Translation
+Row 8: AI Drive (solo)
+
+SCREEN 8 - TOOLS BOTTOM SHEET (4 tabs):
+Tab 1 - Added Tools: Empty state "No tools have been added yet" with wrench icon
+Tab 2 - Common Tools:
+  Google Suite group: Google Suite, Gmail, Calendar, Drive, Google Slides, Google Sheets, Google Docs, Notion - each with Install button
+  Microsoft Suite group: Microsoft 365, Outlook Email, Outlook Calendar, Outlook Contacts, Microsoft Teams, OneDrive, SharePoint - each with Install button
+  Other: Slack, Salesforce, HubSpot, Pipedrive, GitHub, Box, Mailchimp, X(Twitter), Zoom, LINE - each with Install button
+Tab 3 - MCP Tools: Add new MCP server button + Reddit MCP, Deep Wiki MCP, Chart Server MCP, Hacker News MCP
+Tab 4 - MCP Community: 631 tools with category filter chips
+
+SCREEN 9 - SIDEBAR MENU (not logged in):
+- Terms of Service
+- Privacy Policy
+- Select Language
+- "Unlock more features after login"
+- "Sign up or log in" black button
+
+SCREEN 10 - SETTINGS SCREEN:
+- Avatar: gray circle with "U" initial
+- Name: User
+- Email: user@email.com
+- Plan: Free
+- Credits: 100
+- Bookmarks
+- Select Language: English
+- AI Data Retention toggle
+- Network Check
+- Rate App
+- Terms of Service
+- Privacy Policy
+- Feedback
+- Sign Out button
+- Version: "Step Up AI Version 1.0.0"
+
+SCREEN 11 - PERSONAL INFORMATION:
+- Editable avatar with pencil icon
+- Name: User (editable)
+- Email: user@email.com (not editable)
+- Manage Login Sessions
+- Delete Account (red text)
+
+SCREEN 12 - SELECT LANGUAGE:
+11 languages list:
+- English (selected, blue)
+- Tamil (தமிழ்)
+- Arabic
+- German
+- Spanish
+- French
+- Japanese
+- Korean
+- Portuguese
+- Simplified Chinese
+- Traditional Chinese
+Cancel button at bottom
+
+SCREEN 13 - AI DATA RETENTION:
+- Toggle switch ON (blue)
+- Description text about data usage
+
+SCREEN 14 - BOOKMARKS:
+- Empty state: "No bookmarks yet"
+
+SCREEN 15 - NETWORK CHECK:
+- Title: "Network Connection Test"
+- Start Test + Clear Results buttons
+- Results table: Domain, Test URL, Status, Response Time, CORS, Validation, Details
+- Dummy result: stepupai.com, Success, 1068ms, Passed
+- JSON test log display
+
+SCREEN 16 - FEEDBACK MODAL:
+- Title: "Feedback"
+- Email: support@stepupai.com
+- Text input: "Describe your issue or feedback"
+- Cancel + Submit buttons
+
+DESIGN SYSTEM:
+- Colors: White #FFFFFF bg, Black #000000 text, Blue #2563EB accent, Gray #6B7280, Red #EF4444, Green #22C55E
+- Typography: Bold 18-22px headers, Regular 14-16px body
+- Components: Pill buttons, bottom sheet modals, 3-column agent grid, horizontal scroll carousel, blue toggle switches, blue Install buttons
+- Navigation: Top bar with back arrow or hamburger, fixed bottom nav with AI Drive and Hub icons
+- Each agent has unique colored circle background icon

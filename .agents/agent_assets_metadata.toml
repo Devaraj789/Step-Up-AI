@@ -1,0 +1,8 @@
+uploads = []
+outputs = []
+
+[[generated]]
+id = "oQgTM8QfQ1BIyyI7vNzw7"
+uri = "file://artifacts/mobile/assets/images/icon.png"
+type = "image"
+title = "step_up_ai_icon"
